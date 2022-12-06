@@ -22,16 +22,14 @@ I can effectively plan my time and achieve my goals.
 
 ## Code Example ##
 
-```
-let start = +prompt("Enter starting number");
-        let end = +prompt("Enter end number");
-        let sum = 0;
-        for (i = start; i <= end; i++){
-            sum+=i;
-        }
-        alert(`Initial value = ${start}, final value = ${end}, 
-        sum of numbers between them ${sum}`);
-```
+`let start = +prompt("Enter starting number");`
+`let end = +prompt("Enter end number");`
+`let sum = 0;`
+    `for (i = start; i <= end; i++){`
+        `sum+=i;`
+    `}`
+`alert(`Initial value = ${start}, final value = ${end}, 
+        sum of numbers between them ${sum}`);`
 
 ## Experience ##
 
