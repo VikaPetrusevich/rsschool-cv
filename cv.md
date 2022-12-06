@@ -1,11 +1,12 @@
 # Viktoryia Petrusevich #
+***
 
 ## Contacts ##
 
 * Location: Poland, Wroclaw
 * Phone: +48 571 933 083
-* E-mail: viktoriaklapkova@gmail.com
-* GitHub: VikaPetrusevich
+* E-mail: [viktoriaklapkova@gmail.com](viktoriaklapkova@gmail.com) 
+* GitHub: [VikaPetrusevich](VikaPetrusevich)
 
 ## About Me ##
 
@@ -20,6 +21,15 @@ I can effectively plan my time and achieve my goals.
 * Git (Basic)
 
 ## Code Example ##
+
+ let start = +prompt("Enter starting number");
+        let end = +prompt("Enter end number");
+        let sum = 0;
+        for (i = start; i <= end; i++){
+            sum+=i;
+        }
+        alert(`Initial value = ${start}, final value = ${end}, 
+        sum of numbers between them ${sum}`);
 
 
 ## Experience ##
