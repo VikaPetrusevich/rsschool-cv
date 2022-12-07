@@ -28,9 +28,10 @@ I can effectively plan my time and achieve my goals.
     `for (i = start; i <= end; i++){`
         `sum+=i;`
     `}`
-`alert(`Initial value = ${start}, final value = ${end}, 
-        sum of numbers between them ${sum}`);`
-
+```
+alert('Initial value = ${start}, final value = ${end}, 
+        sum of numbers between them ${sum}');
+```
 ## Experience ##
 
 Quality engineer in a pharmaceutical company (December, 2017 - February 2022)
