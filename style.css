@@ -65,10 +65,12 @@ a:hover {
     padding: 0 15px;
     margin: 0 auto;
 }
+
 .foto-title-section {
     display: flex;
     justify-content: space-around;
 }
+
 .cv-container {
     display: flex;
     white-space: nowrap;
@@ -89,6 +91,20 @@ a:hover {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+.section-left {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section-right {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .section-contacts {
@@ -147,26 +163,31 @@ a:hover {
     color: #06423f;
     font-weight: 600;
 }
+
 .footer {
     height: 50px;
     background-color: #08736b;
     display: flex;
     justify-content: space-around;
 }
-.year{
+
+.year {
     color: white;
     font-weight: 600;
 }
+
 .git {
     text-decoration: none;
     color: white;
     padding: 0 25px;
     line-height: 50px;
 }
-.rs_school{
+
+.rs_school {
     width: 50px;
     height: auto;
 }
+
 .link-rs_school {
     padding: 0 25px;
     line-height: 50px;
