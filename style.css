@@ -1,53 +1,173 @@
 @font-face {
     font-family: OpenSans;
-     src: url("assets/fonts/OpenSans.ttf");
-   }
+    src: url("assets/fonts/OpenSans.ttf");
+}
+
 body {
     font-family: 'OpenSans';
     min-height: 100vh;
-    margin: 0; 
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 * {
     box-sizing: border-box;
-  }
-.main {
-    border: 1px solid green;
 }
-.footer {
-    border: 1px solid yellow;
+
+html {
+    scroll-behavior: smooth;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-a { 
-    text-decoration: none; 
-    color: white;
-   } 
+
 a:visited {
     color: aqua;
 }
+
+a:hover {
+    color: aquamarine;
+    background: #05ada2;
+}
+
 .nav {
     height: 50px;
     background-color: #08736b;
 }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    
+    list-style: none;
 }
+
 .nav-item {
-    list-style-type: none;
     color: white;
-    padding: 10px;
 }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.main {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.foto-title-section {
+    display: flex;
+    justify-content: space-around;
+}
+.cv-container {
+    display: flex;
+    white-space: nowrap;
+}
+
 .image {
     width: 100px;
     height: auto;
+
+    border-radius: 100px;
+}
+
+.section-title {
+    color: #08736b;
+    font-size: 18px;
+    font-style: italic;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.section-contacts {
+    color: black;
+}
+
+.cotacts-link {
+    color: #08736b;
+    text-decoration: none;
+}
+
+.section-about-me {
+    color: black;
+}
+
+.section-skills {
+    color: black;
+}
+
+.skills {
+    color: #06423f;
+    font-weight: 600;
+}
+
+.section-code {
+    color: black;
+}
+
+.style-code {
+    line-height: 1px;
+    font-style: italic;
+}
+
+.section-experience {
+    color: black;
+}
+
+.section-education {
+    color: black;
+}
+
+.section-courses {
+    color: black;
+}
+
+.courses {
+    color: #06423f;
+    font-weight: 600;
+}
+
+.section-language {
+    color: black;
+}
+
+.language {
+    color: #06423f;
+    font-weight: 600;
+}
+.footer {
+    height: 50px;
+    background-color: #08736b;
+    display: flex;
+    justify-content: space-around;
+}
+.year{
+    color: white;
+    font-weight: 600;
+}
+.git {
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+    line-height: 50px;
+}
+.rs_school{
+    width: 50px;
+    height: auto;
+}
+.link-rs_school {
+    padding: 0 25px;
+    line-height: 50px;
 }

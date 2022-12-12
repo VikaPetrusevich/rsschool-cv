@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon/favicon.ico">
 </head>
+
 <body>
     <header>
         <div class="container"></div>
@@ -19,21 +21,91 @@
                 <li class="nav-item"><a href="#code example" class="nav-link">Code Example</a></li>
                 <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                 <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <div class="container"></div>
-        <img class="image" src="assets/img/foto.jpg" alt="my photo">
-        
-    </main>
-    <footer class="footer">
         <div class="container">
+            <div class="foto-title-section">
+                <img class="image" src="assets/img/foto.jpg" alt="my photo">
+                <div class="section-title">
+                    <h1>Viktoryia Petrusevich</h1>
+                    <p>Junior front-end developer</p>
+                </div>
+            </div>
 
+            <div class="cv-container">
+                <div class="section-left">
+                    <div class="section-contacts">
+                            <h2 id="contacts">Contacts</h2>
+                            <ul>
+                                <li>Location: Poland, Wroclaw</li>
+                                <li>Phone: <a href=+48 571 933 083 class="cotacts-link">+48 571 933 083</a></li>
+                                <li>E-mail: <a href=viktoriaklapkova@gmail.com
+                                        class="cotacts-link">viktoriaklapkova@gmail.com</a></li>
+                                <li>GitHub: <a href=VikaPetrusevich class="cotacts-link">VikaPetrusevich</a></li>
+                            </ul>
+                    </div>
+                    <div class="section-slills">
+                            <h2 id="skills">Skills</h2>
+                            <ul>
+                                <li><span class="skills">HTML5 and CSS3</span> (Basic)</li>
+                                <li><span class="skills">C#</span> (Basic)</li>
+                                <li><span class="skills">JavaScript</span> (Basic)</li>
+                                <li><span class="skills">Git</span> (Basic)</li>
+                            </ul>
+                    </div>
+                    <div class="section-education">
+                            <h2 id="education">Education</h2>
+                            <p>Belarusian State Technological University, Certification Engineer</p>
+                    </div>
+                    <div class="section-courses">
+                            <h2 id="courses">Courses</h2>
+                            <ul>
+                                <li><span class="courses">Computer Science</span></li>
+                                <li><span class="courses">Programming in C#</span> (Basic course)</li>
+                                <li><span class="courses">JavaScript</span> (Basic course)</li>
+                                <li><span class="courses">HTML5 and CSS3</span> (Basic course)</li>
+                            </ul>
+                    </div>
+                    <div class="section-language">
+                            <h2 id="language">Language</h2>
+                            <ul>
+                                <li><span class="language">Russian</span> - native</li>
+                                <li><span class="language">English</span> level - A2</li>
+                                <li><span class="language">Polish</span> level - A2</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="section-right">
+                    <div class="section-about-me">
+                            <h2 i="about me">About me</h2>
+                            <p>I can easily connect with people. Self-confident, polite and responsive.</p>
+                            <p>I can effectively plan my time and achieve my goals.</p>
+                    </div>
+                    <div class="section-code">
+                            <h2 id="code example">Code Example</h2>
+                            <p class="style-code">let start = +prompt("Enter starting number");</p>
+                            <p class="style-code">let end = +prompt("Enter end number");</p>
+                            <p class="style-code">let sum = 0;</p>
+                            <p class="style-code">for (i = start; i <= end; i++){</p>
+                            <p class="style-code">sum+=i;}</p>
+                            <p class="style-code">alert(`Initial value = ${start}, final value = ${end}, sum of numbers between them ${sum}`);</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p class="year">© 2022</p>
+                <a href=VikaPetrusevich class="git">VikaPetrusevich</a>
+                <a href="https://rs.school/js/" class="link-rs_school"><img class="rs_school" src="assets/img/rs_school_js.svg" alt="rs_school"></a>
+            </div>
         </div>
     </footer>
-    
-
 </body>
 </html>
